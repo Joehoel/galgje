@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+* {
+    font-family: Cabin, 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body .main {
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main form {
+    padding: 20px;
+}
+
+.main button,
+input {
+    padding: 5px;
+}
+
+img {
+    width: 200px;
+    position: fixed;
+    display: flex;
+    left: 550px;
+    bottom: 70%;
+}
+
+input {
+    margin: 10px;
+}
+
+
+.info {
+    top: 100px;
+    left: 100px;
+    border: black 1px solid;
+    padding: 20px;
+    position: fixed;
+    margin: 50px;
+}
+
+p,
+h1 {
+    padding: 10px;
+}
+
+header h1 {
+    text-align: center;
+    border-bottom: black solid 1px;
+    width: 80%;
+    left: 10%;
+    position: fixed;
+    padding: 20px;
+    overflow: hidden;
+}
